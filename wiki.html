@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Wiki Viewer App</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="wiki.css">
+    </head>
+
+    <body>
+    
+    <div class="container">
+        <h2>Wikipedia API Search</h2>
+        <input class="searchForm" id="searchQ" type="text" placeholder="Search Wikipedia">
+        <button id="submitX" type="button">Search</button>
+    </div>
+    
+    <p>Click here: <button id="randButton"><a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Surprise Me</a></button> for a random search</p>
+    
+    <div class="viewer">
+        <h3 id="heading"></h3>
+        <p id="description"></p>
+        <a id="link" href="" target="blank">View result on Wikipedia</a>
+    </div>
+
+
+      <script src="wiki.js"></script>
+    </body>
+</html>

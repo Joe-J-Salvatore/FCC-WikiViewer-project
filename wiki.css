@@ -1,0 +1,47 @@
+body {
+    margin: 0 10px 0 10px;;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #B4C3DC;
+    color: #1A1C1F;
+}
+
+.container {
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #34383F;
+}
+
+#randButton a {
+    color: #000;
+}
+
+a {
+  text-decoration: none; 
+}
+
+a:link {
+    color: #000966;
+}
+
+a:visited {
+    color: #000966;
+}
+
+a:hover {
+    color: #096600;
+}
+
+a:active {
+    color: #000966;
+}
+
+.viewer {
+    margin: 0;
+    padding: 0 10px 20px 10px;
+    background: #FFF;
+    border: 1px solid #B3B3B3;
+}
